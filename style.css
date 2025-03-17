@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.cv-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    width: 400px;
+}
+
+.title {
+    font-size: 28px;
+    color: #ffcc00;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.highlight {
+    color: #66ff66;
+    font-weight: bold;
+}
+
+.email {
+    color: #66ff66;
+    text-decoration: none;
+}
+
+.experience {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    color: #66ff66;
+}
+
+.experience li {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.expertise {
+    color: #ff6666;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
